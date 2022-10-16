@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "nodejs demo",
+  "author": "Sudheer Reddy Duba <sudheer.reddy.duba@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'Build script executed Successfully!!!'",
+    "test": "mocha --recursive --exit"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
